@@ -30,7 +30,7 @@ if (isMobile.matches) {
 else {
   $("div #desktopMenu").attr("id", "desktopMenu");
   $("div a.mobileButton").attr("class", "button");
-    $(".menu_button").hide();
+  $(".menu_button").hide();
 }
 
 $('#mobileMenu').hide();
