@@ -15,7 +15,7 @@ body {
 
 .fixed-bg {
     background-image: url("../images/background3.jpg");
-    min-height: 1130px;
+    min-height:120vh;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 h1 {
@@ -146,7 +146,7 @@ footer {
 .menu_button{
   border-style: none;
   text-align: center;
-  background: white;
+  background: rgba(255,255,255,1);
   color: black;
   padding: 8px 0 8px 0;
 }
