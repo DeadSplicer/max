@@ -18,12 +18,14 @@ function isChrome() {
   }
 }
 
+
 if (isMobile.matches) {
   //Conditional script here
   $("div #desktopMenu").attr("id", "mobileMenu");
   $("div a.button").attr("class", "mobileButton");
   $(".menu_button").show();
   $("#headWrapper").addClass("center");
+  $("#headWrapperPages").addClass("center");
   $("#logo").attr("id", "mobileLogo");
 
 }
