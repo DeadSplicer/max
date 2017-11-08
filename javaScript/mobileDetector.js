@@ -27,6 +27,7 @@ if (isMobile.matches) {
   $("#headWrapper").addClass("center");
   $("#headWrapperPages").addClass("center");
   $("#logo").attr("id", "mobileLogo");
+  $(".fixedbg").attr("class", "fixedbgMobile");
 
 }
 else {

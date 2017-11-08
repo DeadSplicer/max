@@ -65,8 +65,16 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.fixed-bg {
+.fixedbg {
     background-image: url("../images/background3.jpg");
+    min-height:120vh;
+    background-attachment:fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixedbgMobile {
+    background-image: url("../images/background4.jpg");
     min-height:120vh;
     background-attachment:fixed;
     background-position: top;
