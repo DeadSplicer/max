@@ -77,7 +77,7 @@ body {
     background-image: url("../images/background4.jpg");
     min-height:120vh;
     background-attachment:fixed;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
