@@ -86,8 +86,27 @@ body {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
+.padded {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/*#headWrapperPages.banner {
+  background: url("../images/banner2cr.jpg");
+  background-position: center;
+  background-size: cover;
+}*/
+
 div.fixed-bg a {
   /*color: white;*/
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
