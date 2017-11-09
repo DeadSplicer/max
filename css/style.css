@@ -170,7 +170,12 @@ hr {
 #headWrapperPages {
   padding-top: 40px;
   margin-left: 0px;
-  background: #232323;
+  /*background: #232323;*/
+  background: #232323; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #323232, #232323); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #323232, #232323); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #323232, #232323); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #323232, #232323); /* Standard syntax */
   /*background: rgba(255, 255, 255, .1);*/
 }
 
